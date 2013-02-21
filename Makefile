@@ -1,6 +1,6 @@
 
 #SHELLS = $(wildcard *.sh)
-SHELLS = tst010.sh
+SHELLS = tst010.sh tst020.sh
 LOGS = $(SHELLS:.sh=.log)
 
 .SUFFIXES: .sh .log
